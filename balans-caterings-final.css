@@ -1,0 +1,318 @@
+/* General Styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: #484236 !important;
+}
+a {
+    color: #484236 !important;
+}
+/* Remaining Text Colors */
+
+.css-1x54wug img {
+    border-radius: 0.5rem;
+}
+/*-----------------------------------------------------------*/
+/* main-CTA-button*/
+
+#order-form-next-button {
+    background-color: #27241c !important;
+    color: #c8b99b !important;
+    border: 1px solid #685a40;
+}
+#order-form-next-button:hover {
+    background-color: #da6515 !important;
+    color: #fff2ec !important;
+}
+
+/*-----------------------------------------------------------*/
+
+#header,
+#menuContainer {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/*Menu - mobile----------------------------------------------*/
+#menuContainer {
+    height: 100vh !important;
+    width: 80vw !important;
+    max-width: 80vw !important;
+    background: rgba(239, 235, 226, 0.9);
+    backdrop-filter: blur(100px);
+}
+
+#menuContainer > * {
+    color: #685a40 !important;
+}
+
+.css-uz1mvp {
+    background-color: transparent !important;
+    border: 1px solid #685a40 !important;
+    transform: translateY(-8px);
+}
+
+/*-----------------------------------------------------------*/
+.css-pnrjsc {
+    background-color: #fdfcfa !important;
+}
+.css-8efcv1 {
+    background-color: #f7f5f0 !important;
+}
+
+.css-1qcjhh2 {
+    background-color: transparent !important;
+    color: #685f4f !important;
+}
+
+div.css-1cpw9ea.css-1ku3dxl {
+    border-radius: 2rem !important;
+}
+
+.css-1cpw9ea {
+    border-radius: 0.5rem !important;
+    background-color: #fdfcf9 !important;
+}
+
+.css-6exjs3 {
+    background-color: #fdfcf9 !important;
+}
+
+.logo__wrapper.css-12symrd.eo21ttq0 {
+    width: 320px !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.css-owctws {
+    background-color: #fdfcf9 !important;
+}
+
+.css-iz2112 > * {
+    visibility: hidden;
+}
+
+.css-1cpw9ea {
+    border: solid 1px #e9e0cf !important;
+}
+
+.css-z2112 {
+    background-color: #f7f5f0 !important;
+    position: relative;
+    background-size: contain !important;
+    background-position: left center !important;
+
+    width: 100% !important;
+    padding-bottom: 20% !important;
+}
+
+/* Applying Background Images */
+.css-zralah:nth-of-type(1) .css-iz2112 {
+    background-image: url("https://res.cloudinary.com/dejolzrow/image/upload/v1716425375/BALANS/sport_allafj.png") !important;
+    background-size: contain !important;
+    background-position: left center !important;
+    width: 100% !important;
+}
+.css-zralah:nth-of-type(2) .css-iz2112 {
+    background-image: url("https://res.cloudinary.com/dejolzrow/image/upload/v1716425374/BALANS/office_mydzpo.png") !important;
+    background-size: contain !important;
+    background-position: left center !important;
+    width: 100% !important;
+}
+.css-zralah:nth-of-type(3) .css-iz2112 {
+    background-image: url("https://res.cloudinary.com/dejolzrow/image/upload/v1716425374/BALANS/personal_cxqrfd.png") !important;
+    background-size: contain !important;
+    background-position: left center !important;
+    width: 100% !important;
+}
+.css-zralah:nth-of-type(4) .css-iz2112 {
+    background-image: url("https://res.cloudinary.com/dejolzrow/image/upload/v1716425374/BALANS/green_zxg7g5.png") !important;
+    background-size: contain !important;
+    background-position: left center !important;
+    width: 100% !important;
+}
+.css-zralah:nth-of-type(5) .css-iz2112 {
+    background-image: url("https://res.cloudinary.com/dejolzrow/image/upload/v1716425374/BALANS/minus_de36ng.png") !important;
+    background-size: contain !important;
+    background-position: left center !important;
+    width: 100% !important;
+}
+
+.css-zralah:nth-of-type(6) .css-iz2112 {
+    background-image: url("https://res.cloudinary.com/dejolzrow/image/upload/v1716425374/BALANS/choice_etrlge.png") !important;
+    background-size: contain !important;
+    background-position: left center !important;
+    width: 100% !important;
+}
+
+.css-zralah:nth-of-type(7) .css-iz2112 {
+    background-image: url("https://res.cloudinary.com/dejolzrow/image/upload/v1716425374/BALANS/beauty_gihf0e.png") !important;
+    background-size: contain !important;
+    background-position: left center !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important;
+}
+
+.css-1geeajm {
+    background-color: red !important;
+}
+
+/* Mobile Breakpoint */
+@media (max-width: 991px) {
+    .css-1ku3dxl {
+        border-radius: 0;
+    }
+
+    .css-zralah {
+        min-height: 30svh;
+        position: sticky;
+        top: 5rem;
+        padding: 0 !important;
+    }
+
+    .css-zralah .css-iz2112 {
+        order: -1 !important;
+        height: 4rem;
+    }
+
+    .css-zralah:active,
+    .css-16j6rxr {
+        background-color: #e9e0cf;
+        opacity: 1 !important;
+        background: rgba(255, 255, 255);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .css-hbzxyp,
+    .css-uu3u7s {
+        display: flex !important;
+        flex-direction: column !important;
+        flex-wrap: nowrap !important;
+    }
+
+    .css-1h6n7vl {
+        width: 100% !important;
+    }
+
+    .css-1ku3dxl {
+        position: relative;
+    }
+
+    .css-1ku3dxl.esjudhf0 img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        object-fit: contain !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .css-1geeajm > * {
+        visibility: hidden;
+    }
+
+    .css-1geeajm {
+        position: relative;
+        background-color: #f7f5f0 !important;
+        background-size: contain !important;
+        background-position: left center !important;
+        background-repeat: no-repeat !important;
+        width: 100%;
+        padding-bottom: 20%;
+    }
+
+    .css-1fj8cqk {
+        width: 100% !important;
+    }
+
+    .css-hbzxyp {
+        border: solid 1px #e9e0cf !important;
+    }
+
+    .css-zralah:nth-of-type(1) .css-1geeajm {
+        background-image: url("https://res.cloudinary.com/dejolzrow/image/upload/v1716425375/BALANS/sport_allafj.png") !important;
+        background-size: contain !important;
+        background-position: left center !important;
+        background-repeat: no-repeat !important;
+        width: 100%;
+    }
+
+    .css-zralah:nth-of-type(2) .css-1geeajm {
+        background-image: url("https://res.cloudinary.com/dejolzrow/image/upload/v1716425374/BALANS/office_mydzpo.png") !important;
+        background-size: contain !important;
+        background-position: left center !important;
+        background-repeat: no-repeat !important;
+        width: 100%;
+    }
+
+    .css-zralah:nth-of-type(3) .css-1geeajm {
+        background-image: url("https://res.cloudinary.com/dejolzrow/image/upload/v1716425374/BALANS/personal_cxqrfd.png") !important;
+        background-size: contain !important;
+        background-position: left center !important;
+        background-repeat: no-repeat !important;
+        width: 100%;
+    }
+
+    .css-zralah:nth-of-type(4) .css-1geeajm {
+        background-image: url("https://res.cloudinary.com/dejolzrow/image/upload/v1716425374/BALANS/green_zxg7g5.png") !important;
+        background-size: contain !important;
+        background-position: left center !important;
+        background-repeat: no-repeat !important;
+        width: 100%;
+    }
+
+    .css-zralah:nth-of-type(5) .css-1geeajm {
+        background-image: url("https://res.cloudinary.com/dejolzrow/image/upload/v1716425374/BALANS/minus_de36ng.png") !important;
+        background-size: contain !important;
+        background-position: left center !important;
+        background-repeat: no-repeat !important;
+        width: 100%;
+    }
+
+    .css-zralah:nth-of-type(6) .css-1geeajm {
+        background-image: url("https://res.cloudinary.com/dejolzrow/image/upload/v1716425374/BALANS/choice_etrlge.png") !important;
+        background-size: contain !important;
+        background-position: left center !important;
+        background-repeat: no-repeat !important;
+        width: 100%;
+    }
+
+    .css-zralah:nth-of-type(7) .css-1geeajm {
+        background-image: url("https://res.cloudinary.com/dejolzrow/image/upload/v1716425374/BALANS/beauty_gihf0e.png") !important;
+        background-size: contain !important;
+        background-position: left center !important;
+        background-repeat: no-repeat !important;
+        width: 100%;
+    }
+
+    .css-l45vsw {
+        font-weight: 400 !important;
+        background-color: #f1eadf !important;
+    }
+
+    .css-l45vsw::before {
+        content: "";
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background-color: orangered;
+        margin-right: 8px;
+        position: absolute;
+        left: -10px;
+        transform: translateY(-50%) !important;
+    }
+}
